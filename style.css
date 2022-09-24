@@ -1,0 +1,288 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  background: #14141F;
+}
+.container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.navbarr{
+  display: flex;
+}
+.fire{
+  width: 11%;
+  position: relative;
+  right: 3px;
+  top: 3px;
+}
+.navbar-brand{
+  font-family: "Urbanist";
+  font-size:1.8rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 15px 130px 0 130px;
+}
+.nav-item{
+  list-style: none;
+  margin: 0 12px 0 12px;
+  margin-top: 15px;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Urbanist";
+  color: white;
+}
+.btn{
+  font-family: "Urbanist";
+  font-size: 1rem;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border:1px solid #5142FC;
+  background:#14141F;
+  border-radius: 50px;
+  display: block;
+  margin:10px 130px 0 130px;
+}
+.search{
+width: 20px;
+height: 20px;
+position: relative;
+top: 25px;
+left: 45px;
+}
+
+.wallett{
+width: 7%;
+margin-right: 10px;
+
+}
+.frontp{
+  margin-top: 10px;
+border-top: 0.9px solid #ffffff30;
+padding:100px 0 0 190px;
+}
+
+.fh, .th{
+color:white;
+font-family: 'Urbanist';
+font-size: 56px;
+
+
+}
+.sh{
+  font-size:56px;
+background: -webkit-linear-gradient(#E250E5, #4B50E6);
+-webkit-background-clip: text;
+-webkit-text-stroke: 4px transparent;
+color: #14141F;
+margin-top: -30px;
+}
+.para1{
+  color:white;
+  font-family: 'Urbanist';
+  font-size: 18px;
+  margin-top: 40px;
+
+
+
+}
+.mainimg{
+  width: 23%;
+  float: right;
+  position: absolute;
+  top: 110px;
+  right: 260px;
+}
+.light1{
+  width: 250px;
+  height: 200px;
+  /* background: white; */
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background: radial-gradient(30.8% 30.8% at 57.79% 54.71%, rgba(43, 24, 103, 0.24) 0%, rgba(56, 35, 131, 0.24) 50%, rgba(69, 40, 150, 0.24) 80%, rgba(118, 36, 142, 0.24) 100%);
+filter: blur(85px);
+}
+.light2{
+  width: 150px;
+  height: 150px;
+    position: absolute;
+    top: 100px;
+    right: 470px;
+  background: linear-gradient(137.64deg, rgba(201, 201, 201, 0.3) 26.68%, rgba(56, 35, 131, 0.3) 55.42%, rgba(69, 40, 150, 0.3) 72.8%, rgba(118, 36, 142, 0.3) 85.68%);
+filter: blur(75px);
+transform: rotate(-180deg);
+}
+.light3{
+  width: 150px;
+  height: 150px;
+    position: absolute;
+    top: 450px;
+    right: 230px;
+  background: linear-gradient(137.64deg, rgba(201, 201, 201, 0.3) 26.68%, rgba(56, 35, 131, 0.3) 55.42%, rgba(69, 40, 150, 0.3) 72.8%, rgba(118, 36, 142, 0.3) 85.68%);
+filter: blur(75px);
+transform: rotate(-180deg);
+}
+.light4{
+  width: 100px;
+  height: 100px;
+    position: absolute;
+    top: 10px;
+    right: 1px;
+  background: linear-gradient(137.64deg, rgba(201, 201, 201, 0.3) 26.68%, rgba(56, 35, 131, 0.3) 55.42%, rgba(69, 40, 150, 0.3) 72.8%, rgba(118, 36, 142, 0.3) 85.68%);
+filter: blur(75px);
+transform: rotate(-180deg);
+}
+.ball1{
+  width: 70px;
+  height: 70px;
+  border-radius:50px;
+  background:  -webkit-linear-gradient(210deg, #E250E5, #4B50E6);
+  position: absolute;
+  top: 230px;
+  right: 200px;
+}
+.ball2{
+  width: 25px;
+  height: 25px;
+  border-radius:50px;
+  background:  -webkit-linear-gradient(210deg, #E250E5, #4B50E6);
+  position: absolute;
+  top: 400px;
+  right: 280px;
+}
+.ball3{
+  width: 40px;
+  height: 40px;
+  border-radius:50px;
+  border: 1px solid #6A1AB7;
+  background: transparent;
+  position: absolute;
+  top: 127px;
+  right: 240px;
+}
+.fbtn{
+  color: white;
+    font-family: "Urbanist";
+  margin-top: 50px;
+width: 120px;
+height: 45px;
+border-radius: 50px;
+border: 1px solid #4B50E6;
+}
+.rocket{
+  width: 13%;
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+.sbtn{
+  color: black;
+    font-family: "Urbanist";
+  margin-top: 50px;
+width: 120px;
+height: 45px;
+border-radius: 50px;
+background: white;
+border: 2px solid white;
+margin-left: 20px;
+
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.info{
+  color: white;
+    font-family: "Urbanist";
+    font-size: 1.2rem;
+    margin: 100px 0 0 190px;
+}
+.explore{
+color: white;
+font-family: "Urbanist";
+font-size: 0.7rem;
+position: relative;
+left: 950px;
+bottom: 34px;
+background: none;
+border:none;
+}
+.explore::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  margin-top: 2px;
+  left: 0;
+  height: 1px;
+  border-radius: 2px;
+  background: linear-gradient(90deg,#E250E5, #4B50E6);
+}
+
+.total {
+margin-top: 50px;
+margin-bottom: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.hh1{
+  position: absolute;
+  left: 175px;
+width: 17%;
+height: 350px;
+margin-top: 50px;
+border-radius:10px;
+background:#34344495;
+}
+.hh2{
+position: absolute;
+left: 440px;
+width: 17%;
+height: 350px;
+margin-top: 50px;
+border-radius:10px;
+background:#34344495;
+}
+.hh3{
+position: absolute;
+left: 706px;
+width: 17%;
+height: 350px;
+margin-top: 50px;
+border-radius:10px;
+background:#34344495;
+}
+.hh4{
+position: absolute;
+left: 972px;
+width: 17%;
+height: 350px;
+margin-top: 50px;
+border-radius:10px;
+background:#34344495;
+}
+
+
+
+.hh{
+  margin: 0 50px 50px 0;
+  width: 15%;
+  position: relative;
+  border-radius: 10px;
+}
+/* .hh1::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 40px;
+  background:#ffffff50;
+} */
